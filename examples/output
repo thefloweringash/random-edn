@@ -1,0 +1,48 @@
+Generating small
+Generating large
+Performing task 'run' with profile(s): 'base'
+Benchmarking small
+Evaluation count : 778140 in 60 samples of 12969 calls.
+             Execution time mean : 77.403923 µs
+    Execution time std-deviation : 1.214527 µs
+   Execution time lower quantile : 76.181561 µs ( 2.5%)
+   Execution time upper quantile : 80.814730 µs (97.5%)
+                   Overhead used : 1.453187 ns
+
+Found 5 outliers in 60 samples (8.3333 %)
+	low-severe	 5 (8.3333 %)
+ Variance from outliers : 1.6389 % Variance is slightly inflated by outliers
+Performing task 'run' with profile(s): 'patched'
+Benchmarking small
+Evaluation count : 436080 in 60 samples of 7268 calls.
+             Execution time mean : 139.582653 µs
+    Execution time std-deviation : 12.715565 µs
+   Execution time lower quantile : 135.907469 µs ( 2.5%)
+   Execution time upper quantile : 142.568055 µs (97.5%)
+                   Overhead used : 1.715541 ns
+
+Found 5 outliers in 60 samples (8.3333 %)
+	low-severe	 2 (3.3333 %)
+	low-mild	 3 (5.0000 %)
+ Variance from outliers : 65.2720 % Variance is severely inflated by outliers
+Performing task 'run' with profile(s): 'base'
+Benchmarking large
+Evaluation count : 120 in 60 samples of 2 calls.
+             Execution time mean : 871.526960 ms
+    Execution time std-deviation : 4.767533 ms
+   Execution time lower quantile : 865.146324 ms ( 2.5%)
+   Execution time upper quantile : 881.882733 ms (97.5%)
+                   Overhead used : 1.435618 ns
+
+Found 9 outliers in 60 samples (15.0000 %)
+	low-severe	 1 (1.6667 %)
+	low-mild	 8 (13.3333 %)
+ Variance from outliers : 1.6389 % Variance is slightly inflated by outliers
+Performing task 'run' with profile(s): 'patched'
+Benchmarking large
+Evaluation count : 120 in 60 samples of 2 calls.
+             Execution time mean : 834.766302 ms
+    Execution time std-deviation : 5.601150 ms
+   Execution time lower quantile : 823.438203 ms ( 2.5%)
+   Execution time upper quantile : 845.221404 ms (97.5%)
+                   Overhead used : 1.769424 ns
